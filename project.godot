@@ -14,6 +14,10 @@ config/name="Dgd 61a-tower Game"
 config/features=PackedStringArray("4.2", "Mobile")
 config/icon="res://icon.svg"
 
+[autoload]
+
+GameManager="*res://singletons/game_manager.gd"
+
 [display]
 
 window/size/viewport_width=1280
